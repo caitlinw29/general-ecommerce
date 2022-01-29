@@ -2,11 +2,13 @@
 ## Description
 * General E-Commerce configures an Express.js API to use Sequelize to interact with a MySQL database.
 
-* See [video demo]()
+* See [video demo](https://watch.screencastify.com/v/VWWex69lXZnAvf9AvWIt)
 
+## Screenshots
 ![Insomnia usage](./img/insomniaSS.png)
 ![Insomnia usage](./img/insomniaSS2.png)
 ![Insomnia usage](./img/insomniaSS3.png)
+![Insomnia usage](./img/insomniaSS4.png)
 
 ## Installation 
 
@@ -25,6 +27,12 @@ mysql -u root -p
 
 CREATE DATABASE databasename;
 ```
+* OR use the schema.sql file with:
+```
+mysql -u root -p
+SOURCE schema.sql;
+```
+
 * Seed the database with sample data using:
 ```bash
 npm run seed
